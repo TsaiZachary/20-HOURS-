@@ -114,8 +114,8 @@ public class StatsCalculator {
      */
     public void print() {
         System.out.print("Data: ");
-        for (int i = 0; i < array.length; i++){
-            System.out.print(array[i] + " ");
+        for (double values: arr){
+            System.out.print(values + " ");
         }
         System.out.println();
     }
@@ -126,8 +126,8 @@ public class StatsCalculator {
     public void printSorted() {
         System.out.print("Sorted Data: ");
         sortData();
-        for (int i = 0; i < array.length; i++){
-            System.out.print(sortedArray[i] + " ");
+        for (double value: sortedArray){
+            System.out.print(value + " ");
         }
         System.out.println();
     }
